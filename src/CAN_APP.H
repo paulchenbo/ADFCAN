@@ -164,7 +164,7 @@ HAL_StatusTypeDef HAL_CAN_Receive(CAN_HandleTypeDef *hcan, unsigned char FIFONum
 HAL_StatusTypeDef HAL_CAN_Receive_IT(CAN_HandleTypeDef *hcan, unsigned char FIFONumber);
 HAL_StatusTypeDef HAL_CAN_Sleep(CAN_HandleTypeDef *hcan);
 HAL_StatusTypeDef HAL_CAN_WakeUp(CAN_HandleTypeDef *hcan);
-/* Peripheral State functions ***************************************************/
+/* Peripheral State functions ***********************************************/
 void HAL_CAN_IRQHandler(CAN_HandleTypeDef* hcan);
 unsigned int HAL_CAN_GetError(CAN_HandleTypeDef *hcan);
 HAL_CAN_StateTypeDef HAL_CAN_GetState(CAN_HandleTypeDef* hcan);
